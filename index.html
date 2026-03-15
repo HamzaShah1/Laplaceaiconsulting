@@ -1063,8 +1063,8 @@ function resetFinder(){
 }
 
 // FORM
-const FORM_ACTION_URL='https://docs.google.com/forms/d/e/YOUR_FORM_ID_HERE/formResponse';
-const ENTRY={fname:'entry.000000001',email:'entry.000000002',company:'entry.000000003',jobtitle:'entry.000000004',companysize:'entry.000000005',industry:'entry.000000006',service:'entry.000000007',problem:'entry.000000008',budget:'entry.000000009',heardabout:'entry.000000010'};
+const FORM_ACTION_URL='https://docs.google.com/forms/d/e/1FAIpQLScaS4KQwin0M6CStWvyL203Edv2gZ_P3Jab9BuhxelKXKC6Bg/formResponse';
+const ENTRY={fname:'entry.2092353988',email:'entry.221104371',company:'entry.222900069',jobtitle:'entry.1260640884',companysize:'entry.2136712156',industry:'entry.282331255',service:'entry.1653864016',problem:'entry.782559097',budget:'entry.800651232',heardabout:'entry.625708352'};
 function submitForm(){
   const data={fname:document.getElementById('fname').value,email:document.getElementById('email').value,company:document.getElementById('company').value,jobtitle:document.getElementById('jobtitle').value,companysize:document.getElementById('companysize').value,industry:document.getElementById('industry').value,service:(document.querySelector('input[name="service"]:checked')||{}).value||'',problem:document.getElementById('problem').value,budget:document.getElementById('budget').value,heardabout:document.getElementById('heardabout').value};
   const body=new URLSearchParams();
